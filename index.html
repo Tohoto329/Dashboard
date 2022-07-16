@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<title> CRM Dashboard </title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+        <div class="sidebar ">
+            <div class="logo-details">
+                <i class='bx bxl-android'></i>
+                <span class="logo_name">Android</span>
+              </div>
+              <ul class="nav-links">
+                <li>
+                  <a href="#">
+                    <i class='bx bx-grid-alt' ></i>
+                    <span class="link_name">Dashboard</span>
+                  </a>
+                  <li>
+                    <a href="#">
+                        <i class='bx bx-notepad'></i>
+                      <span class="link_name">Deals</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#">Deals</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                        <i class='bx bx-cart'></i>
+                      <span class="link_name">Inventory</span>
+                    </a>
+                    <ul class="sub-menu blank">
+                      <li><a class="link_name" href="#">Inventory</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                  <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Category</a></li>
+                  </ul>
+                </li>
+                <li>
+                <div class="iocn-link">
+                  <a href="#">
+                    <i class='bx bx-collection' ></i>
+                    <span class="link_name">Customer</span>
+                  </a>
+                  <i class='bx bxs-chevron-down arrow' ></i>
+                </div>
+                <ul class="sub-menu">
+                  <li><a class="link_name" href="#">Customer</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Contact Center</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="iocn-link">
+                  <a href="#">
+                    <i class='bx bx-book-alt' ></i>
+                    <span class="link_name">Sales</span>
+                  </a>
+                  <i class='bx bxs-chevron-down arrow' ></i>
+                </div>
+                <ul class="sub-menu">
+                  <li><a class="link_name" href="#">Sales</a></li>
+                  <li><a href="#">Invoice</a></li>
+                  <li><a href="#">Quotes</a></li>
+                  <li><a href="#">Sales Center</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="iocn-link">
+                  <a href="#">
+                     <i class='bx bx-pie-chart-alt-2' ></i>
+                    <span class="link_name">Analytics</span>
+                  </a>
+                  <i class='bx bxs-chevron-down arrow' ></i>
+                </div>
+                <ul class="sub-menu">
+                  <li><a class="link_name" href="#">Analytics</a></li>
+                  <li><a href="#">Sales funnel</a></li>
+                  <li><a href="#">Employee Performance</a></li>
+                  <li><a href="#">Call Analytics</a></li>
+                  <li><a href="#">Conversion Analytics</a></li>
+                  <li><a href="#">Sales Intellligence</a></li>
+                  <li><a href="#">Report Vizard</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-cog' ></i>
+                      <span class="link_name">Setting</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow' ></i>
+                  </div>
+                  <ul class="sub-menu">
+                  <li><a class="link_name" href="#">Setting</a></li>
+                  <li><a href="#">CRM Settting</a></li>
+                  <li><a href="#">Company Details</a></li>
+                  <li><a href="#">Access Permission</a></li>
+                  <li><a href="#">CRM Payment</a></li>
+                  <li><a href="#">Smart Process Automation</a></li>
+                </ul>
+              </li>
+              <li>
+                
+            <div class="profile-details">
+              <div class="profile-content">
+              <img src="user.jpeg" alt="profileImg">
+              </div>
+              <div class="name-job">
+                <div class="profile_name">Tohoto</div>
+                <div class="job">Web Desginer</div>
+              </div>
+              <i class='bx bx-log-out' ></i>
+            </div>
+          </li>
+        </ul>
+          </div>
+          
+
+
+        
+        <!--main-->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <!--search-->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+                <!--userImg-->
+                <div class="user">
+                    <img src="user.jpeg">
+                </div>
+            </div>
+
+            <!--cards-->
+            <div class="cardbox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">11,504</div>
+                        <div class="cardName">Total Contacts</div>
+                    </div>
+                    <div class="iconbx">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">$80,000</div>
+                        <div class="cardName">Total Revenue</div>
+                    </div>
+                    <div class="iconbx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">10,001</div>
+                        <div class="cardName">Email Sent</div>
+                    </div>
+                    <div class="iconbx">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">845</div>
+                        <div class="cardName">New Deals</div>
+                    </div>
+                    <div class="iconbx">
+                        <ion-icon name="person-add-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!--charts-->
+            <div class="graphbox">
+                <div class="box">
+                     <h3>Earning(in past 12 months)<button class btn-success" onclick="updateChart()">Update</button></h3>
+                    <canvas id="lineChart"></canvas>
+                </div>
+                <div class="box">
+                  <h3>Task Report</h3>
+                  <canvas id="Task"></canvas>
+                </div>  
+            </div>
+
+            <!--details list-->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Dell Laptop</td>
+                                <td>$710</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Adidas Shoes</td>
+                                <td>$575</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>H&M Dress</td>
+                                <td>$400</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>LED TV</td>
+                                <td>$900</td>
+                                <td>Paid</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Crocs</td>
+                                <td>$220</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>HP Laptop</td>
+                                <td>$720</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>khurta</td>
+                                <td>$90</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Shirt</td>
+                                <td>$900</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Apple watch</td>
+                                <td>$620</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Shoes</td>
+                                <td>$400</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!--new customer-->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img1.jpg"</div></td>
+                            <td><h4>Rose<br><span>Korea</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img2.jpg"</div></td>
+                            <td><h4>Son<br><span>Korea</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img3.jpg"</div></td>
+                            <td><h4>David<br><span>Italy</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img4.jpg"</div></td>
+                            <td><h4>Selena<br><span>Canada</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img5.jpg"</div></td>
+                            <td><h4>Julie<br><span>France</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img6.jpg"</div></td>
+                            <td><h4>Timothy<br><span>France</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img7.jpg"</div></td>
+                            <td><h4>Bella<br><span>Russia</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imgbx"><img src="img8.jpg"</div></td>
+                            <td><h4>John<br><span>USA</span></h4></td>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script src="chart1.js"></script>
+    <script>
+        //MenuToggle
+        let arrow = document.querySelectorAll(".arrow");
+        for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+        let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+        arrowParent.classList.toggle("showMenu");
+    });
+    }
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".bx-menu");
+        console.log(sidebarBtn);
+        sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+  });
+
+        //add hovered class in selected list item
+        let list = document.querySelectorAll('.navigation li');
+        function navigation(){
+        list.forEach((item) =>
+        item.classList.remove('hovered'));
+        this.classList.add('hovered');
+    }
+    list.forEach((item) =>
+    item.addEventListener('mouseover',navigation));
+    </script>
+</body>
+</html>
